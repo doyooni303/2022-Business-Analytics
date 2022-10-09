@@ -14,7 +14,7 @@
 
     $$
     \begin{aligned}
-    d_\mathbf{G}(i,j) &= \text{min} \left\{ d_\mathbf{G}(i,j), \,\, d_\mathbf{G}(i,k)+d_\mathbf{G}(k,i) \right\}\\
+    d_\mathbf{G}(i,j) &= \text{min} {d_\mathbf{G}(i,j), \,\, d_\mathbf{G}(i,k)+d_\mathbf{G}(k,i)}\\
     k&=1,2,...N
     \end{aligned}
     $$
