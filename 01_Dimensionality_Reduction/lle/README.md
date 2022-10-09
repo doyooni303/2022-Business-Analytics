@@ -48,7 +48,7 @@
     
     By using the conditions, 
 
-    $\Phi(Y)=Y^TMY \quad \text{where} \quad M=(I-W)^T(I-W)$
+    $$\Phi(Y)=Y^TMY \quad \text{where} \quad M=(I-W)^T(I-W)$$
 
     Therefore, the problem can be rewritten as follows.
 

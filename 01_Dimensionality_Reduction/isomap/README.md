@@ -16,7 +16,7 @@
     $$\begin{aligned}
     d_\mathbf{G}(i,j) &= \text{min} 
     \begin{Bmatrix}
-    d_\mathbf{G}(i,j), \,\, d_\mathbf{G}(i,k)+d_\mathbf{G}(k,i)
+    d_\mathbf{G}(i,j), \quad d_\mathbf{G}(i,k)+d_\mathbf{G}(k,i)
     \end{Bmatrix}\\
     k&=1,2,...N
     \end{aligned}$$
@@ -27,12 +27,12 @@
 
     $$\begin{aligned}
     \text{Min }E &=||\tau (D_\mathbf{G})-\tau (D_\mathbf{Y})||_{L^2} \\
-    \text{where} \,\,\, D_\mathbf{Y}&={ 
+    \text{where} \quad D_\mathbf{Y}&={ 
     ||\mathbf{y}_i-\mathbf{y}_j||
-    } \,\,\,\, / \,\,\,\,
-    ||*||_{L^2}=L^2 \, \text{matrix norm}=\sqrt{\sum_{i,j}{A^2_{ij}}} \\
-    \tau (D) &=-HSH/2 \,\,\, \\
-    where \,\,\, S&=\text{matrix of squared distances} = \begin{Bmatrix} S_{ij}=D^2_{ij} \end{Bmatrix} \\
+    } \quad / \quad
+    ||*||_{L^2}=L^2 \quad \text{matrix norm}=\sqrt{\sum_{i,j}{A^2_{ij}}} \\
+    \tau (D) &=-HSH/2 \quad \\
+    where \quad S&=\text{matrix of squared distances} = \begin{Bmatrix} S_{ij}=D^2_{ij} \end{Bmatrix} \\
     H&= \text{centering matrix}= \begin{Bmatrix}  \delta_{ij}-1/N \end{Bmatrix}
     \end{aligned}$$
 
