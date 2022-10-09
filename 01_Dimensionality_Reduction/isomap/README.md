@@ -14,7 +14,10 @@
     Update using Dijkstra algorithm
 
     $$\begin{aligned}
-    d_\mathbf{G}(i,j) &= \text{min} \left\{d_\mathbf{G}(i,j), \,\, d_\mathbf{G}(i,k)+d_\mathbf{G}(k,i)\right\}\\
+    d_\mathbf{G}(i,j) &= \text{min} 
+    \begin{Bmatrix}
+    d_\mathbf{G}(i,j), \,\, d_\mathbf{G}(i,k)+d_\mathbf{G}(k,i)
+    \end{Bmatrix}\\
     k&=1,2,...N
     \end{aligned}$$
 
@@ -29,8 +32,8 @@
     } \,\,\,\, / \,\,\,\,
     ||*||_{L^2}=L^2 \, \text{matrix norm}=\sqrt{\sum_{i,j}{A^2_{ij}}} \\
     \tau (D) &=-HSH/2 \,\,\, \\
-    where \,\,\, S&=\text{matrix of squared distances} = \left\{ S_{ij}=D^2_{ij}\right\} \\
-    H&= \text{centering matrix}= \left\{  \delta_{ij}-1/N \right\}
+    where \,\,\, S&=\text{matrix of squared distances} = \begin{Bmatrix} S_{ij}=D^2_{ij} \end{Bmatrix} \\
+    H&= \text{centering matrix}= \begin{Bmatrix}  \delta_{ij}-1/N \end{Bmatrix}
     \end{aligned}$$
 
     * $\lambda_{p}$: p-th eigenvalue of $\tau(D_G)$, $v_p^k$: k-th element of p-th eigenvector
