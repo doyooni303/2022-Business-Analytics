@@ -2,7 +2,7 @@
 
 1. Assign k, which is a parameter, negihbors to each data point $\overrightarrow{x}_i$
 
-2. Reconstruct with linear weights($w_{ij}$)
+2. Reconstruct with linear weights( $w_{ij}$ )
 
     $$\begin{aligned}
     \text{Min} \,\, &E(W_i)=|\overrightarrow{x}_i-\sum_{j}{W_{ij}\overrightarrow{x}_j}|^2\\
