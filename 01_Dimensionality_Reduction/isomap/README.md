@@ -24,13 +24,13 @@
 
     $$\begin{aligned}
     \text{Min }E &=||\tau (D_\mathbf{G})-\tau (D_\mathbf{Y})||_{L^2} \\
-    \text{where} \,\,\, D_\mathbf{Y}&=\left\{ 
+    \text{where} \,\,\, D_\mathbf{Y}&={ 
     ||\mathbf{y}_i-\mathbf{y}_j||
-    \right\} \,\,\,\, / \,\,\,\,
+    } \,\,\,\, / \,\,\,\,
     ||*||_{L^2}=L^2 \, \text{matrix norm}=\sqrt{\sum_{i,j}{A^2_{ij}}} \\
     \tau (D) &=-HSH/2 \,\,\, \\
-    where \,\,\, S&=\text{matrix of squared distances} = \left\{ S_{ij}=D^2_{ij} \right\} \\
-    H&= \text{centering matrix}= \left\{  \delta_{ij}-1/N \right\}
+    where \,\,\, S&=\text{matrix of squared distances} = { S_{ij}=D^2_{ij}} \\
+    H&= \text{centering matrix}= {  \delta_{ij}-1/N }
     \end{aligned}$$
 
     * $\lambda_{p}$: p-th eigenvalue of $\tau(D_G)$, $v_p^k$: k-th element of p-th eigenvector
