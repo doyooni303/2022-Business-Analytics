@@ -4,11 +4,11 @@
 
 2. Reconstruct with linear weights($w_{ij}$)
 
-    $\begin{aligned}
+    $$\begin{aligned}
     \text{Min} \,\, &E(W_i)=|\overrightarrow{x}_i-\sum_{j}{W_{ij}\overrightarrow{x}_j}|^2\\
     s.t \,\, &W_{ij}=0\, \text{if }\, \overrightarrow{x}_j \, \text{does not belong to the neighbors of} \,\, \overrightarrow{x}_i \\
     &\sum_{j}{W_{ij}=1 ,\forall i} 
-    \end{aligned}$
+    \end{aligned}$$
 
     [Solution]
 
