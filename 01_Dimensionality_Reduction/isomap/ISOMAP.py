@@ -171,7 +171,7 @@ class Parser:
             "--title",
             default="ISOMAP Projection figure",
             type=str,
-            help="Save path for saving output figures",
+            help="Title of the output figure",
         )
         return parser.parse_args()
 
