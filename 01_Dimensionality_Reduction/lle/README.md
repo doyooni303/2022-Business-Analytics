@@ -1,15 +1,13 @@
 # Steps of locally linear embedding
 
-1) Assign k, which is a parameter, negihbors to each data point $\overrightarrow{x}_i$
+1. Assign k, which is a parameter, negihbors to each data point $\overrightarrow{x}_i$
 
-2) Reconstruct with linear weights($w_{ij}$)
-
+2. Reconstruct with linear weights($w_{ij}$)
     $\begin{aligned}
     \text{Min} \,\, &E(W_i)=|\overrightarrow{x}_i-\sum_{j}{W_{ij}\overrightarrow{x}_j}|^2\\
     s.t \,\, &W_{ij}=0\, \text{if }\, \overrightarrow{x}_j \, \text{does not belong to the neighbors of} \,\, \overrightarrow{x}_i \\
     &\sum_{j}{W_{ij}=1 ,\forall i} 
-    \end{aligned}
-    $
+    \end{aligned}$
 
     [Solution]
 
@@ -21,8 +19,7 @@
     &=(Z^TW_i)^T(Z^TW_i)\\
     &=W_i^TZZ^TW_i \\
     &=W_i^TG_iW_i \,\, (G_i=ZZ^T,\text{Gram Matrix}) \\
-    \end{aligned}
-    $
+    \end{aligned}$
 
     The optimization problem can be rewritten as follows.
 
@@ -37,7 +34,7 @@
     L(W_i,\lambda)&=W^T_iG_iW_i-\lambda(\mathbf{1}^TW_i-1) \\
     \frac{\delta L}{\delta W_i}&=(G_i+G^T_i)W_i-\lambda \mathbf{1} \,\,(\because \text{G is symmetric})\\
     &=2G_iW_i-\lambda \mathbf{1}=0 \\
-    \therefore W_i&=\frac{\lambda}{2}G_i^{-1}\mathbf{1}
+    \therefore W_i&=\frac{\lambda}{2}G_i^{-1}\mathbf{1}\\
     \end{aligned}$
 
 3. Map to embedded coordinates
