@@ -21,6 +21,7 @@
 3. Find the vectors with a length of $d$ by MDS(In conclusion, it is same as using KernelPCA)
 
     * Goal: Find a new vector $y_i$ in $\mathbf{Y}$
+    
     $$\begin{aligned}
     \text{Min }E &=||\tau (D_\mathbf{G})-\tau (D_\mathbf{Y})||_{L^2} \\
     \text{where} \,\,\, D_\mathbf{Y}&=\left \{ 
