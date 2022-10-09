@@ -23,8 +23,7 @@
 
     * Goal: Find a new vector $y_i$ in $\mathbf{Y}$
 
-    $$
-    \begin{aligned}
+    $$\begin{aligned}
     \text{Min }E &=||\tau (D_\mathbf{G})-\tau (D_\mathbf{Y})||_{L^2} \\
     
     \text{where} \,\,\, D_\mathbf{Y}&=\left \{ 
@@ -37,8 +36,7 @@
     where \,\,\, S&=\text{matrix of squared distances} = \left\{ S_{ij}=D^2_{ij} \right\} \\
 
     H&= \text{centering matrix}= \left \{  \delta_{ij}-1/N \right \}
-    \end{aligned}
-    $$
+    \end{aligned}$$
 
     * $\lambda_{p}$: p-th eigenvalue of $\tau(D_G)$, $v_p^k$: k-th element of p-th eigenvector
 
