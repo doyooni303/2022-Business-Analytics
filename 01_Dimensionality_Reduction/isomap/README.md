@@ -5,6 +5,7 @@
 2. Find the shortest distance using Dijkstra algorithm
 
     Initialize:
+
     $$d_\mathbf{G}(i,j)=\begin{cases}
     d_\mathbf{x}(i,j)& \text{ if i,j are linked by an edge}\\
     \infty & \text{ otherwise }
@@ -12,12 +13,10 @@
 
     Update using Dijkstra algorithm
 
-    $$
-    \begin{aligned}
+    $$\begin{aligned}
     d_\mathbf{G}(i,j) &= \text{min} {d_\mathbf{G}(i,j), \,\, d_\mathbf{G}(i,k)+d_\mathbf{G}(k,i)}\\
     k&=1,2,...N
-    \end{aligned}
-    $$
+    \end{aligned}$$
 
 3. Find the vectors with a length of $d$ by MDS(In conclusion, it is same as using KernelPCA)
 
