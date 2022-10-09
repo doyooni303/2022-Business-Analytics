@@ -31,7 +31,7 @@
 
     ||*||_{L^2}=L^2 \, \text{matrix norm}=\sqrt{\sum_{i,j}{A^2_{ij}}} \\
 
-    * \, \tau (D) &=-HSH/2 \,\,\, \\
+    \tau (D) &=-HSH/2 \,\,\, \\
     where \,\,\, S&=\text{matrix of squared distances} = \left\{ S_{ij}=D^2_{ij} \right\} \\
 
     H&= \text{centering matrix}= \left \{  \delta_{ij}-1/N \right \}
