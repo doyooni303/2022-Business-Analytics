@@ -25,30 +25,25 @@ In simple, it can be explained by following  steps:
 1) Data Augmentation  
 
     ![Data Augmentation](figures/DataAugmentation.png)  
-    <center>
-    Data Augmentation
-    </center> 
     
     Get the average of outputs of several augmented unlabeled data.  
 
 2) Label Guessing and Sharpening  
 
     ![Label Guessing](figures/LabelGuessing.png)
-    <center>Label Guessing and sharpening</center>  
 
     Apply softmax with temperature for minimizing the entropy(or sharpening the highest value) and get the guessed label.
 
 3) Mix Up  
 
     ![Mix Up](figures/MixUp.png)
-    <center>Mix Up</center>
 
     Mix Up is applied to unlabeled data only in general, however, it can be applied to labeled data as well here.  
 
 4) Loss  
 
     Total loss is the sum up of Supervised loss and Consistency loss    
-    $L=L_l$(Cross Entropy)$+\lambda L_u$(L2 loss)
+    $L=L_l(Cross Entropy)+\lambda L_u(L_2 loss)$
 
 
 ## 🧐 Directory <a name = "directory"></a>
