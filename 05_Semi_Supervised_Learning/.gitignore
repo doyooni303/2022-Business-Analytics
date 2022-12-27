@@ -1,0 +1,8 @@
+# folder
+__pycache__/
+wandb/
+data/
+results/
+
+# file
+*.ipynb
