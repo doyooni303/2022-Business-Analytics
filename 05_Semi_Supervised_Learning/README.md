@@ -15,7 +15,7 @@
 Here, you can try MixMatch, which is one of the semi-supervised learning methodologies, with the CIFAR10 dataset and WideResNet model.
 
 
-## 🧐 MixMatch(Berthelot, 2019) <a name = "MixMatch"></a>
+## 🧐 MixMatch(2019) <a name = "MixMatch"></a>
 <center>Overall Procedure</center>  
 
 ![Overall Procedure](figures/MixMatch.png)
